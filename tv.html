@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112830695-2"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112830695-2');
+      </script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="letsgo247">
@@ -18,73 +28,8 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-danger sticky-top">
-      <a class="navbar-brand" href="index.html"><strong>LETSGO247</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div id="navbar"></div>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Cover<span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-user-circle" aria-hidden="true"></i> 나</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="favorites.html">Favorites</a>
-              <a class="dropdown-item" href="leftright.html">좌우명</a>
-              <a class="dropdown-item" href="doppelganger.html">닮은꼴</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-heart" aria-hidden="true"></i> 관심사</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="music.html">음악</a>
-              <a class="dropdown-item" href="travel.html">여행</a>
-              <a class="dropdown-item" href="photo.html">사진</a>
-              <a class="dropdown-item" href="salsa.html">살사댄스</a>
-              <a class="dropdown-item" href="snowboarding.html">스노보딩</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-star" aria-hidden="true"></i> Portfolio</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="portfolio.html">작품</a>
-              <a class="dropdown-item" href="awards.html">수상</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item active" href="tv.html">TV출연</a>
-            </div>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-laptop" aria-hidden="true"></i> 코딩</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="sideprojects.html">사이드 프로젝트</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="future.html">미래</a>
-            </div>
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">
-              <i class="fa fa-address-book" aria-hidden="true"></i> Contact <span class="sr-only">(current)</span></a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="guest.html">
-              <i class="fa fa-comments" aria-hidden="true"></i> Guest <span class="sr-only">(current)</span></a>
-          </li>
-
-        </ul>
-      </div>
-    </nav>
 
     <article style="
                     background-image: url('img/broadcast.jpg');
@@ -163,65 +108,27 @@
       </div>
 
 
-
-
     </article>
 
 
-
-    <!-- <article style="
-                    background-image: url('img/newspaper.jpg');
-                    background-position: center top;
-                    background-attachment: fixed;
-                    background-size: cover;
-                    margin: auto;
-                    padding-top: 3em;
-                    padding-bottom: 2em;
-                    ">
-
-      <h2><p align="center" style="color:white">신문 기사</p></h2>
+    <div id="footer"></div>
 
 
-      <div class=container style="max-width: 50em; padding-top:2em;">
-        <div class="card text-center">
-          <div class="card-header">
-            한국경제신문
-          </div>
-          <div class="card-body">
-            <img src="img/article.jpg" class="img-fluid" style="max-height:400px;">
-            <h4 class="card-title"></h4>
-            <p class="card-text">퀴즈대한민국</p>
-          </div>
-          <div class="card-footer text-muted">
-            2014
-          </div>
-        </div>
-      </div>
-
-    </article> -->
-
-
-
-
-
-
-
-
-    <footer>
-      <div style="text-align:center; font-size:0.9em; color:gray; background-color:#f2f2f2">
-        <br>
-        ⓒ <a href="contact.html" style="color:gray">LETSGO247</a>. All Rights Reserved
-        <br>
-        Powered by <a href="https://getbootstrap.com/" style="color:gray">Bootstrap</a> v4.0.0
-        <br>
-        <br>
-      </div>
-    </footer>
-
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#navbar").load("navbar.html");
+            $("#footer").load("footer.html");
+        });
+
+        $(document).ajaxComplete(function () {
+            $("#portfolio, #TV출연").addClass("active");
+        });
+    </script>
+
   </body>
 
 
